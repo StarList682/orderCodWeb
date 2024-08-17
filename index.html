@@ -1,2 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="JYeqhcpHl2-YdnmrjeHvWEkgvD-ziMrqsMVWtQnyFDw" />
+    <title>StarCode</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="https://i.ibb.co/tcKHpbw/ico.jpg">
+</head>
+<body>
+    <header>
+        <div class="logo" data-en="StarCode" data-ru="StarCode">StarCode</div>
+        <nav>
+            <div class="language-switcher">
+                <button id="en-btn" data-en="English" data-ru="Английский">English</button>
+                <button id="ru-btn" data-en="Русский" data-ru="Русский">Русский</button>
+            </div>
+        </nav>
+    </header>
+    <section class="intro">
+        <h1 data-en="Welcome to StarCode" data-ru="Добро пожаловать в StarCode">Welcome to StarCode</h1>
+        <p data-en="Your place to order high-quality code and websites." data-ru="Ваше место для заказа качественного кода и сайтов.">Your place to order high-quality code and websites.</p>
+        <button id="scroll-to-tariffs" data-en="View Tariffs" data-ru="Посмотреть тарифы">View Tariffs</button>
+    </section>
+    <section id="about" class="about">
+        <h2 data-en="About Me" data-ru="Обо мне">About Me</h2>
+        <p id="portfolio-link" data-en="I am a skilled developer working with HTML, CSS, JavaScript, PHP, C++, and Python. You can check out my portfolio here." data-ru="Я квалифицированный разработчик, работающий с HTML, CSS, JavaScript, PHP, C++ и Python. Вы можете ознакомиться с моим портфолио здесь.">
+            I am a skilled developer working with HTML, CSS, JavaScript, PHP, C++, and Python. You can check out my portfolio <a href='https://starlist682.github.io/WebPortfolio/' target='_blank' class='portfolio-link'>here</a>.
+        </p>
+    </section>
+    <section id="tariffs" class="tariffs">
+        <div class="tariff-group">
+            <h2 data-en="Our Tariffs" data-ru="Наши тарифы">Our Tariffs</h2>
+            <div class="tariff">
+                <h3 data-en="Economy" data-ru="Эконом">Economy</h3>
+                <p data-en="Budget from $15 to $40. Allows ordering a simple script or improvement." data-ru="Бюджет от $15 до $40. Можно заказать простой скрипт или улучшение.">Budget from $15 to $40. Allows ordering a simple script or improvement.</p>
+                <button class="order-btn" data-en="ORDER" data-ru="ЗАКАЗАТЬ">ORDER</button>
+            </div>
+            <div class="tariff">
+                <h3 data-en="Classic" data-ru="Классический">Classic</h3>
+                <p data-en="Budget from $41 to $100. Allows ordering a good and complex script or a simple website without enhancements and with a decent design." data-ru="Бюджет от $41 до $100. Можно заказать хороший и сложный скрипт или простой сайт без усовершенствований и с нормальным дизайном.">Budget from $41 to $100. Allows ordering a good and complex script or a simple website without enhancements and with a decent design.</p>
+                <button class="order-btn" data-en="ORDER" data-ru="ЗАКАЗАТЬ">ORDER</button>
+            </div>
+        </div>
+        <div class="tariff-group">
+            <div class="tariff">
+                <h3 data-en="Business" data-ru="Бизнес">Business</h3>
+                <p data-en="Budget from $100 and above. Allows ordering a very good and beautiful website with additions." data-ru="Бюджет от $100 и выше. Можно заказать очень хороший и красивый сайт с дополнениями.">Budget from $100 and above. Allows ordering a very good and beautiful website with additions.</p>
+                <button class="order-btn" data-en="ORDER" data-ru="ЗАКАЗАТЬ">ORDER</button>
+            </div>
+            <div class="tariff">
+                <h3 data-en="Custom" data-ru="Кастомный">Custom</h3>
+                <p data-en="Budget from $30 to $300. Allows ordering custom programs." data-ru="Бюджет от $30 до $300. Можно заказать кастомные программы.">Budget from $30 to $300. Allows ordering custom programs.</p>
+                <button class="order-btn" data-en="ORDER" data-ru="ЗАКАЗАТЬ">ORDER</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p data-en="&copy; 2024 StarCode. All rights reserved." data-ru="&copy; 2024 StarCode. Все права защищены.">&copy; 2024 StarCode. All rights reserved.</p>
+    </footer>
 
-   <html><head></head><body>google-site-verification: googledf95573a851d0e0e.html</body></html>
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p data-en="Write your request and tariff in the Telegram chat (@StarList_saki0), and we will answer you." data-ru="Напишите в чате Телеграма (@StarList_saki0) ваш запрос и тариф, и мы вам ответим.">Write your request and tariff in the Telegram chat (@StarList_saki0), and we will answer you.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
